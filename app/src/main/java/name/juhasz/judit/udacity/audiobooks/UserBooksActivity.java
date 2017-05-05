@@ -4,43 +4,39 @@ import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
 
-public class UserBooksActivity extends AppCompatActivity {
+public class UserBooksActivity extends AppCompatActivity implements View.OnClickListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_user_books);
 
-        Button discoverButton = (Button) findViewById(R.id.b_discover);
+        findViewById(R.id.b_discover).setOnClickListener(this);
+        findViewById(R.id.b_now_playing_title).setOnClickListener(this);
+        findViewById(R.id.b_list_item).setOnClickListener(this);
+    }
 
-        discoverButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+    @Override
+    public void onClick(View v) {
+        final int clickedViewId = v.getId();
+
+        switch (clickedViewId) {
+            case R.id.b_discover: {
                 Intent discoverIntent = new Intent(UserBooksActivity.this, DiscoverBooksActivity.class);
                 startActivity(discoverIntent);
+                break;
             }
-        });
-
-        Button nowPlayingTitleButton = (Button) findViewById(R.id.b_now_playing_title);
-
-        nowPlayingTitleButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+            case R.id.b_now_playing_title: {
                 Intent bookDetailsIntent = new Intent(UserBooksActivity.this, BookDetailsActivity.class);
                 startActivity(bookDetailsIntent);
+                break;
             }
-        });
-
-        Button listItemButton = (Button) findViewById(R.id.b_list_item);
-
-        listItemButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
+            case R.id.b_list_item: {
                 Intent bookDetailsIntent = new Intent(UserBooksActivity.this, BookDetailsActivity.class);
                 startActivity(bookDetailsIntent);
+                break;
             }
-        });
+        }
     }
 }
