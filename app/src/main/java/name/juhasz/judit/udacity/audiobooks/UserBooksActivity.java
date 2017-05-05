@@ -14,7 +14,7 @@ public class UserBooksActivity extends AppCompatActivity implements View.OnClick
 
         findViewById(R.id.b_discover).setOnClickListener(this);
         findViewById(R.id.b_now_playing_title).setOnClickListener(this);
-        findViewById(R.id.b_list_item).setOnClickListener(this);
+        findViewById(R.id.b_user_book_list_item).setOnClickListener(this);
     }
 
     @Override
@@ -32,7 +32,7 @@ public class UserBooksActivity extends AppCompatActivity implements View.OnClick
                 startActivity(bookDetailsIntent);
                 break;
             }
-            case R.id.b_list_item: {
+            case R.id.b_user_book_list_item: {
                 Intent bookDetailsIntent = new Intent(UserBooksActivity.this, BookDetailsActivity.class);
                 startActivity(bookDetailsIntent);
                 break;
