@@ -1,4 +1,4 @@
-package name.juhasz.judit.audiobooks;
+package name.juhasz.judit.udacity.audiobooks;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("name.juhasz.judit.audiobooks", appContext.getPackageName());
+        assertEquals("name.juhasz.judit.udacity.audiobooks", appContext.getPackageName());
     }
 }

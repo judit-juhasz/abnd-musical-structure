@@ -6,7 +6,7 @@
     android:orientation="vertical"
     android:paddingStart="@dimen/activity_horizontal_margin"
     android:paddingEnd="@dimen/activity_horizontal_margin"
-    tools:context="name.juhasz.judit.audiobooks.UserBooksActivity">
+    tools:context="name.juhasz.judit.udacity.audiobooks.UserBooksActivity">
 
     <TextView
         android:layout_width="wrap_content"

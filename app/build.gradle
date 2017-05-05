@@ -4,7 +4,7 @@ android {
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
-        applicationId "name.juhasz.judit.audiobooks"
+        applicationId "name.juhasz.judit.udacity.audiobooks"
         minSdkVersion 15
         targetSdkVersion 25
         versionCode 1

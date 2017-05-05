@@ -1,4 +1,4 @@
-package name.juhasz.judit.audiobooks;
+package name.juhasz.judit.udacity.audiobooks;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
