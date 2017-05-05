@@ -9,4 +9,13 @@
     <string name="activity_user_books_button_now_playing_title">The book\'s title in Now Playing</string>
     <string name="activity_user_books_button_list_item">A list item in the book list</string>
     <string name="activity_user_books_button_discover">The discover button</string>
+
+    <string name="activity_discover_books_title">Discover (Audio)Books</string>
+    <string name="activity_discover_books_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis orci vulputate, dignissim mi et, cursus libero. Proin nec mauris erat. Integer iaculis nunc urna, vitae interdum augue ultricies ac. Etiam vel urna a lorem imperdiet molestie at at libero. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada justo at odio commodo convallis. Nunc eget dolor orci.</string>
+    <string name="activity_discover_books_button_list_item">A list item in the book list</string>
+
+    <string name="activity_book_details_title">(Audio)Book Details</string>
+    <string name="activity_book_details_description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer lobortis orci vulputate, dignissim mi et, cursus libero. Proin nec mauris erat. Integer iaculis nunc urna, vitae interdum augue ultricies ac. Etiam vel urna a lorem imperdiet molestie at at libero. Suspendisse potenti. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut malesuada justo at odio commodo convallis. Nunc eget dolor orci.</string>
+    <string name="activity_book_details_button_play">Play Audiobook</string>
+    <string name="activity_book_details_button_discover_similar_books">Discover similar books button</string>
 </resources>
