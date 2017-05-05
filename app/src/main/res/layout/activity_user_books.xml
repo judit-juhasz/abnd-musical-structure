@@ -47,6 +47,7 @@
         android:text="@string/activity_user_books_button_list_item"/>
 
     <Button
+        android:id="@+id/b_discover"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/activity_user_books_button_discover"/>
