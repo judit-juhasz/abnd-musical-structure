@@ -22,5 +22,25 @@ public class UserBooksActivity extends AppCompatActivity {
                 startActivity(discoverIntent);
             }
         });
+
+        Button nowPlayingTitleButton = (Button) findViewById(R.id.b_now_playing_title);
+
+        nowPlayingTitleButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent bookDetailsIntent = new Intent(UserBooksActivity.this, BookDetailsActivity.class);
+                startActivity(bookDetailsIntent);
+            }
+        });
+
+        Button listItemButton = (Button) findViewById(R.id.b_list_item);
+
+        listItemButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent bookDetailsIntent = new Intent(UserBooksActivity.this, BookDetailsActivity.class);
+                startActivity(bookDetailsIntent);
+            }
+        });
     }
 }

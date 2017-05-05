@@ -36,12 +36,14 @@
         android:text="@string/action_title" />
 
     <Button
+        android:id="@+id/b_now_playing_title"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="@dimen/activity_vertical_spacing"
         android:text="@string/activity_user_books_button_now_playing_title"/>
 
     <Button
+        android:id="@+id/b_list_item"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/activity_user_books_button_list_item"/>
