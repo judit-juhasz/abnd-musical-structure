@@ -43,6 +43,7 @@
             android:id="@+id/b_discover_list_item"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_spacing"
             android:text="@string/activity_discover_books_button_list_item" />
 
     </LinearLayout>

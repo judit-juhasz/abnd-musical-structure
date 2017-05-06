@@ -50,6 +50,7 @@
             android:id="@+id/b_discover_similar_books"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/activity_vertical_spacing"
             android:text="@string/activity_book_details_button_discover_similar_books" />
 
     </LinearLayout>
